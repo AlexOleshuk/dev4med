@@ -1,0 +1,45 @@
+
+.value-oriented-conteiner{
+    display: flex;
+    background-image: url('../addons/img/pngegg\(18\).png');
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    padding: 30px 0;
+    box-shadow: 0 10px 10px 0px #FFF inset,  0 -20px 10px 0px #FFF inset;
+    justify-content: space-around;
+}
+
+
+.value-oriented-conteiner .value-oriented-block{
+    width: 45%;
+}
+
+
+.value-oriented-conteiner .value-oriented-block .value-oriented-title{
+    font-size: 1.4vw;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    color: rgb(73, 73, 73);
+}
+
+
+.value-oriented-conteiner .value-oriented-block .value-oriented-list{
+    display: flex;
+    margin-left: 20px;
+    padding: 10px 0;
+    flex-direction: column;
+    color: rgb(73, 73, 73);
+}
+
+
+.value-oriented-conteiner .value-oriented-block .value-oriented-list div{
+    margin: 15px 10px;
+    align-items: center;
+    display: flex;
+    background-color: rgba(255, 255, 255, .5);
+    font-size: 1vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.5);
+}
+
+

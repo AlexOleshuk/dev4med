@@ -1,0 +1,33 @@
+.presentation-conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #62b0d7;
+    padding: 20px 0;
+}
+
+
+.presentation-conteiner .presentation-img-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+.presentation-conteiner .presentation-img-block img{
+    width: 90%;
+}
+
+
+.presentation-conteiner .presentation-img-block .title{
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size:1.2vw;
+}
+
+.presentation-conteiner .presentation-img-block .title h1{
+    border-bottom: 2px solid #FFF;
+    text-shadow: 0px 0px 10px rgb(189, 189, 189);
+}

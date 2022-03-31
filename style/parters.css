@@ -1,0 +1,44 @@
+.partners-conteiner{
+    background-image: url('../addons/img/bussn-abroad1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px 0;
+    padding-bottom: 30px;
+}
+
+
+.partners-conteiner .partners-title{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    width: 60%;
+    border-bottom: 2px solid #6ce1f2;
+}
+
+
+.partners-conteiner .partners-title h1{
+    color: #6ce1f2;
+    font-size: 2vw;
+}
+
+
+.partners-conteiner .partners-conteiner-blocks{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 10%;
+}
+
+
+.partners-conteiner .partners-conteiner-blocks .partners-block{
+    display: flex;
+    margin: 10px 0;
+    font-size: 1vw;
+    background-color: #6ce1f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0px #6ce1f2;
+    padding: 15px 20px;
+    color: #FFF;
+    text-shadow: 0px 0px 15px rgb(73, 73, 73);
+}
