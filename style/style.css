@@ -1,0 +1,526 @@
+@font-face {
+    font-family: RubikRegular;
+    src: url('../addons/font/Rubik/Rubik-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: RubikBold;
+    src: url('../addons/font/Rubik/Rubik-Bold.ttf');
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: RubikRegular;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.wrap-conteiner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    padding: 0 40px;
+    background-color: #14a09d;
+    justify-content: center;
+}
+
+
+ #burger_btn{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ #burger_btn span{
+    width: 30px;
+    height: 3px;
+    background-color: #FFF;
+    margin: 2px 0;
+}
+
+
+header .header-conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+header .header-conteiner .logo-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+header .header-conteiner .logo-conteiner .logo {
+    margin: 10px;
+}
+
+
+header .header-conteiner .logo-conteiner img {
+    width: 75px;
+    height: 75px;
+}
+
+
+header .header-conteiner .logo-conteiner .logo-text {
+    margin: 10px;
+    font-family: RubikBold;
+    font-size: 1.5vw;
+    color: #FFF;
+}
+
+
+header .header-conteiner .nav-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+
+header .header-conteiner .nav-conteiner nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+header .header-conteiner .nav-conteiner nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+header .header-conteiner .nav-conteiner nav ul li {
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0 10px;
+    color: #FFF;
+    font-size: 0.9vw;
+    cursor: pointer;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity .1s linear;
+}
+
+
+header .header-conteiner .nav-conteiner nav ul li:hover {
+    box-shadow: 0px 1px 0px #FFF;
+}
+
+
+.wrap-conteiner .content-conteiner .billboard-conteiner {
+    background-image: url('../addons/img/big2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 -20px 5px 0px #FFF inset;
+}
+
+.wrap-conteiner .content-conteiner .billboard-conteiner .billboard-text-conteiner {
+    width: 50%;
+}
+
+
+.wrap-conteiner .content-conteiner .billboard-conteiner .billboard-text-conteiner h1 {
+    font-size: 3.2vw;
+    font-weight: 500;
+    font-family: RubikBold;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0px 0px 15px #000;
+}
+
+/*=================About======================*/
+
+._about {
+    background-image: url('../addons/img/med-4.png');
+    background-size: contain;
+    color: rgb(102 99 99);
+}
+
+.about_text {
+    font-size: 3vw;
+    margin-left: 13%;
+    margin-bottom: 20px;
+}
+
+.about_title {
+    display: flex;
+}
+
+.about_title_text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.about_title_block {
+    background-color: #FFF;
+    padding: 20px;
+    margin: 10px 20px 10px 50px;
+    box-shadow: 0 0 5px 0 black;
+    font-size: 1vw;
+}
+
+
+.about_title_photo {
+    width: 50%;
+}
+
+.about_photo {
+    margin: 0px 60px;
+    box-shadow: 0 0 5px 0 black;
+    width: 830px;
+    height: 593px
+}
+
+.stairway-conteiner {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 0px;
+    background-image: url('../addons/img/123.png');
+    background-position: 35%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.stairway-conteiner .stairway-block-conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0 10px;
+}
+
+
+.stairway-conteiner .stairway-block-conteiner .stairway-block {
+    display: flex;
+    margin: 15px 0;
+    box-sizing: border-box;
+    height: 55px;
+    text-align: center;
+    padding-left: 5%;
+}
+
+
+.text-content {
+    padding: 0 20px;
+    box-shadow: -11px 10px 15px #000;
+    border-radius: 10px;
+    color: rgb(78, 78, 78);
+    font-size: 1vw;
+}
+
+
+.block1 .text-content {
+    background-color: rgb(242, 242, 242);
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+
+.block2 .text-content {
+    background-color: rgb(242, 242, 242);
+    margin-left: 6% ;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+
+.block3 .text-content {
+    background-color: rgb(242, 242, 242);
+    margin-left: 14% ;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+
+.block4 .text-content {
+    background-color: rgb(242, 242, 242);
+    margin-left: 25% ;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+
+.block5 .text-content {
+    background-color: rgb(242, 242, 242);
+    margin-left: 40%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+
+.stairway-conteiner .description-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.stairway-conteiner .description-conteiner .description {
+    width: 80%;
+    font-size: 1.2vw;
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+    box-shadow: 0 0 20px 3px black;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 20px;
+}
+
+/*=================Advantages======================*/
+
+.advantages {
+    background-image: url('../addons/img/med-3.png');
+    box-shadow: 0 0 40px 15px #fff inset;
+}
+
+.advantages_title {
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 10px;
+    color: #6a6a6a;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block {
+    padding: 15px;
+    margin: 15px 0px;
+    width: 20%;
+    color: #FFF;
+    background-color: #269ead;
+    box-shadow: 0 0 5px 0 black;
+    text-shadow: 0 0px 5px black;
+    font-size: 1vw;
+    line-height: 30px;
+    transition: all .5s;
+}
+
+.block:hover {
+    transform: scale(1.04);
+}
+
+.int {
+    margin: 10px 0px 20px 5px;
+    color: #FFB067;
+}
+
+
+/*=================Device Photo======================*/
+
+.device {
+    margin: 100px 0px;
+}
+
+.photo_device {
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+}
+
+/*=================Usage and benefits======================*/
+
+.benefits {
+    background-image: url('../addons/img/med-7.png');
+    background-size: cover;
+    font-size: 1.1vw;
+    color: #000;
+}
+
+.benefits_title {
+    font-size: 3vw;
+    text-align: center;
+    margin: 20px;
+}
+
+.benefits_text {
+    font-size: 1.5vw;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.benefits_text_1{
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 0 black;
+    font-size: 1vw;
+    width: 50%;
+    text-align: center;
+    margin:3% 0 3% 10%;
+    padding: 40px 40px;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.table_title {
+    text-align: center;
+    font-size: 1.7vw;
+    margin: 0 auto;
+    background-color: #FFF;
+    box-shadow: 0 0 5px 0 black;
+    padding: 10px;
+    height: 45px;
+    width: 57%;
+}
+
+.tabke_block_1 {
+    text-align: center;
+    width: 30%;
+}
+
+.tabke_block_2 {
+    text-align: center;
+    width: 30%;
+}
+
+.table_block_text {
+    background-color: #FFF;
+    box-shadow: 0 0 5px 0 black;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*=================CONTACTS======================*/
+
+
+.contacts-conteiner{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: #14a09d;
+}
+
+
+.contacts-conteiner .contact-block-conteiner{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+}
+
+
+.contacts-conteiner .contact-block-conteiner .contact-block{
+    display: flex;
+    align-items: center;
+}
+
+
+.contacts-conteiner .contact-block-conteiner .contact-block .icon img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.contacts-conteiner .contact-block-conteiner .contact-block .description{
+    margin-left: 10px;
+    font-size: 1.2vw;
+    color: #FFF;
+}
+
+
+
+/* =======================up_down_btn====================== */
+
+#toTop {
+	position: fixed;
+	display: inline-block;
+	bottom: 50px;
+	right: -50px;
+	width: 50px;
+	height: 50px;
+	z-index: 1000;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	background: rgba(148, 148, 148, 0.493);
+	box-shadow: 0 0 0 3px rgba(0,0,0,.2);
+	opacity: 0;
+	visibility: hidden;
+  transition: all .3s ease-in-out;
+}
+#toTop:hover {
+		background: rgb(54, 54, 54);
+}
+
+#toTop svg {
+	position: relative;
+	top: 12px;
+	right: -1px;
+	fill: #fff;
+	transition: all .3s ease-in-out;
+}
+
+#toTop:hover svg {
+	cursor: pointer;
+	fill: #fff;
+	transition: all .3s ease-in-out;
+}
+
+#toTop.show {
+	opacity: 1;
+	visibility: visible;
+	right: calc(2%);
+}

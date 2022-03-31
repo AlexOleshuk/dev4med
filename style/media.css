@@ -1,0 +1,1302 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+
+    #burger_btn{
+        display: flex;
+    }
+
+
+    header{
+        padding: 0;
+    }
+
+
+    header .header-conteiner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+
+
+    header .header-conteiner .logo-conteiner{
+        position: relative;
+        z-index: 1;
+    }
+
+
+    header .header-conteiner .logo-conteiner .logo{
+        display: none;
+    }
+
+
+    header .header-conteiner .nav-conteiner{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #14a09d;
+        transform: translateY(-1000%);
+        transition: all .5s;
+        z-index: 0;
+    }
+
+    .active{
+        transform: translateY(0) !important;
+    }
+
+
+    header .header-conteiner .logo-conteiner .logo-text{
+        font-size: 9vw;
+    }
+
+
+    header .header-conteiner .nav-conteiner nav ul{
+        flex-direction: column;
+    }
+
+
+    header .header-conteiner .nav-conteiner nav ul li{
+        font-size: 6vw;
+        margin: 5px 0;
+    }
+
+
+    .wrap-conteiner .content-conteiner .billboard-conteiner{
+        height: 120px;
+        box-shadow: 0 -5px 5px 0px #FFF inset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .wrap-conteiner .content-conteiner .billboard-conteiner .billboard-text-conteiner h1 {
+        font-size: 1.25em;
+        width: 100%;
+    }
+
+
+    .about{
+        background-image: url('../addons/img/med-4.png');
+        background-size: cover;
+
+    }
+
+
+    .about_text{
+        font-size: 1.6em;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .about_title_text{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+
+    .about_title_block{
+        font-size: 1em;
+        margin: 10px 20px;
+    }
+
+
+    .stairway-conteiner{
+        margin: 10px 0 25px 0px;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner .stairway-block{
+        margin: 10px 0;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner{
+        width: 100%;
+    }
+
+
+    .stairway-conteiner .description-conteiner{
+        width: 100%;
+    }
+
+
+    .text-content{
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .block1 .text-content{
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .block2 .text-content{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .block3 .text-content{
+        width: 80%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+    .block4 .text-content{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .block5 .text-content{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner .stairway-block{
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+
+    .stairway-conteiner .description-conteiner{
+        height: auto;
+    }
+
+
+    .stairway-conteiner .description-conteiner .description{
+        font-size: 16px;
+        margin-top: 20px;
+        width: 70%;
+    }
+
+
+    .advantages_title{
+        font-size: 3.1em;
+        margin: 5px;
+    }
+
+
+    .block{
+        margin: 10px 0px;
+        width: 80%;
+        font-size: 7vw;
+    }
+
+    .block .block_text{
+        text-align: center;
+    }
+
+    .block .int{
+        margin: 0;
+    }
+
+    .device {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .device img{
+        width: 90%;
+    }
+
+    .photo_device{
+        width: inherit;
+    }
+
+    .benefits_title{
+        font-size: 10vw;
+        margin: 10px 0;
+    }
+
+    .benefits_text{
+        font-size: 4vw;
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    .table_title{
+        height: auto;
+        font-size: 4.7vw;
+        width: 90%;
+    }
+
+    .table_block_text{
+        margin: 10px 10px;
+        height: 65px;
+    }
+
+    .tabke_block_1{
+        width: 40%;
+    }
+
+    .tabke_block_2{
+        width: 40%;
+    }
+
+    .table{
+        font-size: 3.5vw;
+    }
+
+    .benefits_text_1{
+        margin: 0 auto;
+        font-size: 4vw;
+        width: 90%;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 10px 10px;
+    }
+
+    .benefits {
+        margin-bottom: 15px;
+        
+    }
+
+    .value-oriented-conteiner{
+        flex-wrap: wrap;
+    }
+
+    .value-oriented-conteiner .value-oriented-block{
+        margin: 0 15px;
+    }
+
+    .value-oriented-conteiner .value-oriented-block{
+        width: 85%;
+    }
+
+    .value-oriented-conteiner .value-oriented-block .value-oriented-list div{
+        font-size: 6vw;
+    }
+
+    .value-oriented-conteiner .value-oriented-block .value-oriented-title{
+        font-size: 6.4vw;
+    }
+
+
+    .pathology-conteiner .title h1{
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .pathology-conteiner .title-descript p{
+        font-size: 5.3vw;
+        width: 90%;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block{
+        width: 90%;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block div img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block .pathology-block-description{
+        font-size: 4vw;
+    }
+
+    .partners-conteiner .partners-conteiner-blocks{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .partners-conteiner .partners-conteiner-blocks .partners-block{
+        font-size: 4vw;
+    }
+
+    .partners-conteiner .partners-title h1{
+        font-size: 6vw;
+    }
+
+    .presentation-conteiner .presentation-img-block .title h1{
+        font-size: 6vw;
+    }
+
+    .contacts-conteiner .contact-block-conteiner .contact-block{
+        margin: 0 10px;
+    }
+
+    .contacts-conteiner .contact-block-conteiner{
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: left;
+    }
+
+    .contacts-conteiner .contact-block-conteiner .contact-block .description{
+        font-size: 5vw;
+    }
+}
+
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 600px) {
+ 
+    #burger_btn{
+        display: flex;
+    }
+
+
+    header{
+        padding: 0;
+    }
+
+
+    header .header-conteiner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+
+
+    header .header-conteiner .logo-conteiner{
+        position: relative;
+        z-index: 1;
+    }
+
+
+    header .header-conteiner .logo-conteiner .logo{
+        display: none;
+    }
+
+
+    header .header-conteiner .nav-conteiner{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #14a09d;
+        transform: translateY(-1000%);
+        transition: all .5s;
+        z-index: 0;
+    }
+
+    .active{
+        transform: translateY(0) !important;
+    }
+
+
+    header .header-conteiner .logo-conteiner .logo-text{
+        font-size: 9vw;
+    }
+
+
+    header .header-conteiner .nav-conteiner nav ul{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+
+    header .header-conteiner .nav-conteiner nav ul li{
+        font-size: 3.5vw;
+        margin: 5px 0;
+    }
+
+    .wrap-conteiner .content-conteiner .billboard-conteiner{
+        height: 210px;
+        box-shadow: 0 -5px 5px 0px #FFF inset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .wrap-conteiner .content-conteiner .billboard-conteiner .billboard-text-conteiner h1 {
+        font-size: 2.25em;
+        width: 100%;
+    }
+
+
+    .about{
+        background-image: url('../addons/img/med-4.png');
+        background-size: cover;
+
+    }
+
+
+    .about_text{
+        font-size: 2.6em;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .about_title_text{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+
+    .about_title_block{
+        font-size: 1em;
+        margin: 10px 20px;
+    }
+
+
+    .stairway-conteiner{
+        margin: 10px 0 25px 0px;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner .stairway-block{
+        margin: 10px 0;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner{
+        width: 100%;
+    }
+
+
+    .stairway-conteiner .description-conteiner{
+        width: 100%;
+    }
+
+
+    .text-content{
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .block1 .text-content{
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .block2 .text-content{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .block3 .text-content{
+        width: 80%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+    .block4 .text-content{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .block5 .text-content{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner .stairway-block{
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+
+    .stairway-conteiner .description-conteiner{
+        height: auto;
+    }
+
+
+    .stairway-conteiner .description-conteiner .description{
+        font-size: 16px;
+        margin-top: 20px;
+        width: 70%;
+    }
+
+
+    .advantages_title{
+        font-size: 3.1em;
+        margin: 5px;
+    }
+
+
+    .block{
+        margin: 10px 0px;
+        width: 80%;
+        font-size: 5vw;
+    }
+
+    .block .block_text{
+        text-align: center;
+    }
+
+    .block .int{
+        margin: 0;
+    }
+
+    .device {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .device img{
+        width: 90%;
+    }
+
+    .photo_device{
+        width: inherit;
+    }
+
+    .benefits_title{
+        font-size: 10vw;
+        margin: 10px 0;
+    }
+
+    .benefits_text{
+        font-size: 4vw;
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    .table_title{
+        height: auto;
+        font-size: 4.7vw;
+        width: 90%;
+    }
+
+    .table_block_text{
+        margin: 10px 10px;
+        height: 65px;
+    }
+
+    .tabke_block_1{
+        width: 40%;
+    }
+
+    .tabke_block_2{
+        width: 40%;
+    }
+
+    .table{
+        font-size: 3.5vw;
+    }
+
+    .benefits_text_1{
+        margin: 0 auto;
+        font-size: 4vw;
+        width: 90%;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 10px 10px;
+    }
+
+    .benefits {
+        margin-bottom: 15px;
+        
+    }
+
+    .value-oriented-conteiner{
+        flex-wrap: wrap;
+    }
+
+    .value-oriented-conteiner .value-oriented-block{
+        margin: 0 15px;
+    }
+
+    .value-oriented-conteiner .value-oriented-block{
+        width: 85%;
+    }
+
+    .value-oriented-conteiner .value-oriented-block .value-oriented-list div{
+        font-size: 6vw;
+    }
+
+    .value-oriented-conteiner .value-oriented-block .value-oriented-title{
+        font-size: 6.4vw;
+    }
+
+
+    .pathology-conteiner .title h1{
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .pathology-conteiner .title-descript p{
+        font-size: 5.3vw;
+        width: 90%;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block{
+        width: 90%;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block div img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block .pathology-block-description{
+        font-size: 4vw;
+    }
+
+    .partners-conteiner .partners-conteiner-blocks{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .partners-conteiner .partners-conteiner-blocks .partners-block{
+        font-size: 4vw;
+    }
+
+    .partners-conteiner .partners-title h1{
+        font-size: 6vw;
+    }
+
+    .presentation-conteiner .presentation-img-block .title h1{
+        font-size: 6vw;
+    }
+
+    .contacts-conteiner .contact-block-conteiner .contact-block{
+        margin: 0 10px;
+    }
+
+    .contacts-conteiner .contact-block-conteiner{
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: left;
+    }
+
+    .contacts-conteiner .contact-block-conteiner .contact-block .description{
+        font-size: 5vw;
+    }
+}
+
+
+@media only screen and (min-device-width : 600px) and (max-device-width : 820px) {
+    #burger_btn{
+        display: flex;
+    }
+
+
+    header{
+        padding: 0;
+    }
+
+
+    header .header-conteiner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+
+
+    header .header-conteiner .logo-conteiner{
+        position: relative;
+        z-index: 1;
+    }
+
+
+    header .header-conteiner .logo-conteiner .logo{
+        display: none;
+    }
+
+
+    header .header-conteiner .nav-conteiner{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #14a09d;
+        transform: translateY(-1000%);
+        transition: all .5s;
+        z-index: 0;
+    }
+
+    .active{
+        transform: translateY(0) !important;
+    }
+
+
+    header .header-conteiner .logo-conteiner .logo-text{
+        font-size: 9vw;
+    }
+
+
+    header .header-conteiner .nav-conteiner nav ul{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+
+    header .header-conteiner .nav-conteiner nav ul li{
+        font-size: 3vw;
+        margin: 5px 0;
+    }
+
+ 
+    .wrap-conteiner .content-conteiner .billboard-conteiner{
+        height: 220px;
+        box-shadow: 0 -5px 5px 0px #FFF inset;
+    }
+
+
+
+    .about{
+        background-image: url('../addons/img/med-4.png');
+        background-size: cover;
+
+    }
+
+
+    .about_text{
+        font-size: 2.6em;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .about_title_text{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+
+    .about_title_block{
+        font-size: 1.5em;
+        margin: 10px 20px;
+    }
+
+
+    .stairway-conteiner{
+        margin: 10px 0 25px 0px;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner .stairway-block{
+        margin: 10px 0;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner{
+        width: 100%;
+    }
+
+
+    .stairway-conteiner .description-conteiner{
+        width: 100%;
+    }
+
+
+    .text-content{
+        font-size: 2.5vw;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .block1 .text-content{
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .block2 .text-content{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .block3 .text-content{
+        width: 80%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+    .block4 .text-content{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .block5 .text-content{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner .stairway-block{
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+
+    .stairway-conteiner .description-conteiner{
+        height: auto;
+    }
+
+
+    .stairway-conteiner .description-conteiner .description{
+        font-size: 16px;
+        margin-top: 20px;
+        width: 70%;
+    }
+
+
+    .advantages_title{
+        font-size: 3.1em;
+        margin: 5px;
+    }
+
+
+    .block{
+        margin: 10px 0px;
+        width: 80%;
+        font-size: 3vw;
+    }
+
+    .block .block_text{
+        text-align: center;
+    }
+
+    .block .int{
+        margin: 0;
+    }
+
+    .device {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .device img{
+        width: 90%;
+    }
+
+    .photo_device{
+        width: inherit;
+    }
+
+    .benefits_title{
+        font-size: 7vw;
+        margin: 10px 0;
+    }
+
+    .benefits_text{
+        font-size: 3vw;
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    .table_title{
+        height: auto;
+        font-size: 3vw;
+        width: 90%;
+    }
+
+    .table_block_text{
+        margin: 10px 10px;
+        height: 65px;
+    }
+
+    .tabke_block_1{
+        width: 45%;
+    }
+
+    .tabke_block_2{
+        width: 45%;
+    }
+
+    .table{
+        font-size: 2.5vw;
+    }
+
+    .benefits_text_1{
+        margin: 0 auto;
+        font-size: 2.5vw;
+        width: 90%;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 10px 10px;
+    }
+
+    .benefits {
+        margin-bottom: 15px;
+        
+    }
+
+    .value-oriented-conteiner{
+        flex-wrap: wrap;
+    }
+
+    .value-oriented-conteiner .value-oriented-block{
+        margin: 0 15px;
+    }
+
+    .value-oriented-conteiner .value-oriented-block{
+        width: 85%;
+    }
+
+    .value-oriented-conteiner .value-oriented-block .value-oriented-list div{
+        font-size: 3vw;
+    }
+
+    .value-oriented-conteiner .value-oriented-block .value-oriented-title{
+        font-size: 5.4vw;
+    }
+
+
+    .pathology-conteiner .title h1{
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .pathology-conteiner .title-descript p{
+        font-size: 3.3vw;
+        width: 90%;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block{
+        width: 90%;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block div img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block .pathology-block-description{
+        font-size: 2.5vw;
+    }
+
+    .partners-conteiner .partners-conteiner-blocks{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .partners-conteiner .partners-conteiner-blocks .partners-block{
+        font-size: 2.5vw;
+    }
+
+    .partners-conteiner .partners-title h1{
+        font-size: 4vw;
+    }
+
+    .presentation-conteiner .presentation-img-block .title h1{
+        font-size: 4vw;
+    }
+
+    .contacts-conteiner .contact-block-conteiner .contact-block{
+        margin: 0 10px;
+    }
+
+    .contacts-conteiner .contact-block-conteiner{
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: left;
+    }
+
+    .contacts-conteiner .contact-block-conteiner .contact-block .description{
+        font-size: 3vw;
+    }
+}
+
+
+@media only screen and (min-device-width : 820px) and (max-device-width : 1390px) {
+    .wrap-conteiner .content-conteiner .billboard-conteiner{
+        height: 320px;
+        box-shadow: 0 -5px 5px 0px #FFF inset;
+    }
+
+
+    header .header-conteiner{
+        width: 100%;
+    }
+
+
+    header .header-conteiner .nav-conteiner nav ul li{
+        font-size: 1.2vw;
+    }
+
+
+    .about{
+        background-image: url('../addons/img/med-4.png');
+        background-size: cover;
+
+    }
+
+
+    .about_text{
+        font-size: 2.6em;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .about_title_text{
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+
+
+    .about_title_block{
+        font-size: 1.1em;
+        margin: 10px 20px;
+        width: 70%;
+    }
+
+
+    .stairway-conteiner{
+        margin: 10px 0 25px 0px;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner .stairway-block{
+        margin: 10px 0;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner{
+        width: 100%;
+    }
+
+
+    .stairway-conteiner .description-conteiner{
+        width: 100%;
+    }
+
+
+    .text-content{
+        font-size: 1.5vw;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .block1 .text-content{
+        width: 60%;
+        text-align: center;
+    }
+
+
+    .block2 .text-content{
+        margin-left: 0;
+        width: 60%;
+        text-align: center;
+    }
+
+
+    .block3 .text-content{
+        width: 60%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+    .block4 .text-content{
+        margin-left: 0;
+        width: 60%;
+        text-align: center;
+    }
+
+
+    .block5 .text-content{
+        margin-left: 0;
+        width: 60%;
+        text-align: center;
+    }
+
+    .stairway-conteiner .stairway-block-conteiner .stairway-block{
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+
+    .stairway-conteiner .description-conteiner{
+        height: auto;
+    }
+
+
+    .stairway-conteiner .description-conteiner .description{
+        font-size: 16px;
+        margin-top: 20px;
+        width: 70%;
+    }
+
+
+    .advantages_title{
+        font-size: 3.1em;
+        margin: 5px;
+    }
+
+
+    .block{
+        margin: 10px 0px;
+        width: 60%;
+        font-size: 1.5vw;
+    }
+
+    .block .block_text{
+        text-align: center;
+    }
+
+    .block .int{
+        margin: 0;
+    }
+
+    .device {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .device img{
+        width: 90%;
+    }
+
+    .photo_device{
+        width: inherit;
+    }
+
+    .benefits_title{
+        font-size: 4vw;
+        margin: 10px 0;
+    }
+
+    .benefits_text{
+        font-size: 2vw;
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    .table_title{
+        height: auto;
+        font-size: 2vw;
+        width: 90%;
+    }
+
+    .table_block_text{
+        margin: 10px 10px;
+        height: 65px;
+    }
+
+    .tabke_block_1{
+        width: 35%;
+    }
+
+    .tabke_block_2{
+        width: 35%;
+    }
+
+    .table{
+        font-size: 1.5vw;
+    }
+
+    .benefits_text_1{
+        margin: 0 auto;
+        font-size: 1.5vw;
+        width: 60%;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 10px 10px;
+    }
+
+    .benefits {
+        margin-bottom: 15px;
+        
+    }
+
+    .value-oriented-conteiner{
+        flex-wrap: wrap;
+    }
+
+    .value-oriented-conteiner .value-oriented-block{
+        margin: 0 15px;
+    }
+
+    .value-oriented-conteiner .value-oriented-block{
+        width: 85%;
+    }
+
+    .value-oriented-conteiner .value-oriented-block .value-oriented-list div{
+        font-size: 2vw;
+    }
+
+    .value-oriented-conteiner .value-oriented-block .value-oriented-title{
+        font-size: 3.4vw;
+    }
+
+
+    .pathology-conteiner .title h1{
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .pathology-conteiner .title-descript p{
+        font-size: 2.3vw;
+        width: 90%;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block{
+        width: 90%;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block div img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .pathology-conteiner .pathology-conteiner-blocks .pathology-block .pathology-block-description{
+        font-size: 1.5vw;
+    }
+
+    .partners-conteiner .partners-conteiner-blocks{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .partners-conteiner .partners-conteiner-blocks .partners-block{
+        font-size: 1.5vw;
+    }
+
+    .partners-conteiner .partners-title h1{
+        font-size: 4vw;
+    }
+
+    .presentation-conteiner .presentation-img-block .title h1{
+        font-size: 4vw;
+    }
+
+    .contacts-conteiner .contact-block-conteiner .contact-block{
+        margin: 0 10px;
+    }
+
+    .contacts-conteiner .contact-block-conteiner{
+        flex-wrap: wrap;
+        width: 60%;
+        justify-content: space-around;
+    }
+
+    .contacts-conteiner .contact-block-conteiner .contact-block .description{
+        font-size: 1.5vw;
+    }
+}
